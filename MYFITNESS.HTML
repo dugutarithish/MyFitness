@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MyFitness - Stay Fit Together</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">🏋️‍♂️ MyFitness</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#register">Register</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Transform Your Body. Transform Your Life.</h1>
+      <p>Track your workouts, meals, and progress — all in one place.</p>
+      <a href="#register" class="btn">Join Now</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="section light">
+    <h2>Why Choose MyFitness?</h2>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <img src="https://img.icons8.com/color/96/dumbbell.png" alt="">
+        <h3>Workout Tracking</h3>
+        <p>Log your exercises, reps, and sets to see your progress over time.</p>
+      </div>
+      <div class="feature-card">
+        <img src="https://img.icons8.com/color/96/apple.png" alt="">
+        <h3>Nutrition Plans</h3>
+        <p>Stay on track with custom meal plans tailored to your goals.</p>
+      </div>
+      <div class="feature-card">
+        <img src="https://img.icons8.com/color/96/heart-with-pulse.png" alt="">
+        <h3>Health Monitoring</h3>
+        <p>Monitor your heart rate, steps, and hydration levels easily.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Registration Section -->
+  <section id="register" class="section gradient">
+    <h2>Candidate Registration</h2>
+    <div class="register-container">
+      <form id="registrationForm" class="form">
+        <input type="text" id="name" placeholder="Full Name" required>
+        <input type="number" id="age" placeholder="Age" required>
+        <input type="text" id="mobile" placeholder="Mobile Number" required>
+        <input type="number" id="height" placeholder="Height (in cm)" required>
+        <input type="number" id="weight" placeholder="Weight (in kg)" required>
+        <input type="email" id="email" placeholder="Email Address" required>
+        <input type="password" id="password" placeholder="Create Password" required>
+        <button type="submit" class="btn full-btn">Create Account</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Profile Page -->
+  <section id="profile" class="section light" style="display:none;">
+    <h2>Welcome to Your Fitness Account</h2>
+    <div class="profile-card">
+      <div class="profile-header">
+        <img src="https://img.icons8.com/color/96/user-male-circle--v1.png" alt="Profile">
+        <h3 id="displayName"></h3>
+      </div>
+      <div class="profile-details">
+        <p><strong>Age:</strong> <span id="displayAge"></span></p>
+        <p><strong>Mobile:</strong> <span id="displayMobile"></span></p>
+        <p><strong>Height:</strong> <span id="displayHeight"></span></p>
+        <p><strong>Weight:</strong> <span id="displayWeight"></span></p>
+        <p><strong>Email:</strong> <span id="displayEmail"></span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section dark">
+    <h2>Contact & Credits</h2>
+    <p>Developed by  | Department of AI & DS b.akshay 9014951061</p>
+  </section>
+
+  <footer>
+    <p>© 2025 MyFitness | Designed with ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
