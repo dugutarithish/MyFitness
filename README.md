@@ -27,3 +27,6 @@ git clone https://github.com/dugutarithish/MyFitness.git
 cd MyFitness
 docker build -t myfitness .
 docker run -d -p 8080:80 --name myfitness-container myfitness
+
+##Open your browser and navigate to:
+http://localhost:8080
