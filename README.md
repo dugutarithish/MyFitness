@@ -30,3 +30,7 @@ docker run -d -p 8080:80 --name myfitness-container myfitness
 
 ##Open your browser and navigate to:
 http://localhost:8080
+
+
+
+<img width="1897" height="972" alt="image" src="https://github.com/user-attachments/assets/996158ec-df1e-4856-a999-117769c901e1" />
