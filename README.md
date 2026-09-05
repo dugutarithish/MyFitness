@@ -1,5 +1,11 @@
 # MyFitness
 
+
+
+
+<img width="1897" height="972" alt="image" src="https://github.com/user-attachments/assets/950538e1-83f7-4a76-8314-7c4614ae0fde" />
+
+
 A lightweight, containerized fitness web application packaged with Nginx and Docker for fast and reliable deployment.
 
 ## Features
