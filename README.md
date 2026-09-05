@@ -32,5 +32,5 @@ docker run -d -p 8080:80 --name myfitness-container myfitness
 http://localhost:8080
 
 
+<img width="1897" height="972" alt="image" src="https://github.com/user-attachments/assets/620dd94b-3f14-4bd5-aa79-e6a22318d62f" />
 
-<img width="1897" height="972" alt="image" src="https://github.com/user-attachments/assets/996158ec-df1e-4856-a999-117769c901e1" />
